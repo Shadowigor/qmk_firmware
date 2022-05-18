@@ -18,6 +18,10 @@
 #include "bdn9.h"
 #include "quantum.h"
 
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
+#define RGB_MATRIX_STARTUP_SPD 30
+#define RGB_MATRIX_STARTUP_VAL 50
+
 /* This a shortcut to help you visually see your layout.
  *
  * The first section contains all of the arguments representing the physical

@@ -20,6 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "iris.h"
 #include "quantum.h"
 
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
+#define RGB_MATRIX_STARTUP_SPD 30
+#define RGB_MATRIX_STARTUP_VAL 50
+
 
 #define LAYOUT( \
     LA1, LA2, LA3, LA4, LA5, LA6,           RA6, RA5, RA4, RA3, RA2, RA1, \
